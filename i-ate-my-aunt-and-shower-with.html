@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I ate my Aunt' and Shower with - Confessions</title>
+
+    <!-- Network Script -->
+    <script src="https://advancementpubertydied.com/5f/05/dc/5f05dc691b53d44cdfdb0691fb65c449.js"></script>
+
+    <style>
+        :root {
+            --primary-color: #111;
+            --accent-color: #d93838;
+            --bg-color: #f9f9f9;
+            --card-bg: #fff;
+            --text-color: #333;
+            --meta-color: #777;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: var(--bg-color); color: var(--text-color); line-height: 1.8; font-size: 16px; overflow-x: hidden; }
+        header { background-color: var(--primary-color); color: #fff; padding: 20px 0; text-align: center; border-bottom: 4px solid var(--accent-color); }
+        header h1 { font-size: 2.2rem; letter-spacing: 2px; text-transform: uppercase; }
+        nav { background-color: #222; padding: 12px 10px; text-align: center; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; }
+        nav::-webkit-scrollbar { display: none; }
+        nav a { color: #fff; text-decoration: none; margin: 0 12px; font-size: 0.95rem; font-weight: 600; text-transform: uppercase; transition: color 0.3s; display: inline-block; }
+        nav a:hover { color: var(--accent-color); }
+        
+        .container { max-width: 1100px; margin: 25px auto; padding: 0 15px; width: 100%; }
+        .main-layout { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 25px; align-items: start; }
+        
+        .story-content-card { background: var(--card-bg); padding: 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); width: 100%; min-width: 0; overflow: hidden; }
+        .story-category { color: var(--accent-color); font-size: 0.85rem; font-weight: bold; text-transform: uppercase; margin-bottom: 8px; display: block; }
+        .story-title { font-size: 1.8rem; color: var(--primary-color); margin-bottom: 12px; line-height: 1.3; word-break: break-word; overflow-wrap: break-word; }
+        .story-meta { font-size: 0.85rem; color: var(--meta-color); margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 12px; }
+        
+        .story-img-wrapper { width: 100%; max-height: 400px; border-radius: 6px; margin-bottom: 20px; overflow: hidden; background: #000; display: flex; align-items: center; justify-content: center; }
+        .story-img { width: 100%; height: 100%; max-height: 400px; object-fit: cover; display: block; }
+        
+        .story-text { width: 100%; overflow-wrap: break-word; word-break: break-word; }
+        .story-text p { margin-bottom: 18px; font-size: 1.05rem; color: #333; line-height: 1.8; }
+        
+        .ad-container { text-align: center; margin: 25px 0; background: #fff; padding: 10px; border-radius: 6px; border: 1px solid #eee; width: 100%; max-width: 100%; overflow: hidden; box-sizing: border-box; }
+        .ad-container iframe, .ad-container img, .ad-container ins { max-width: 100% !important; }
+        
+        .sidebar { display: flex; flex-direction: column; gap: 20px; position: sticky; top: 20px; min-width: 0; }
+        .sidebar-card { background: var(--card-bg); padding: 20px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); width: 100%; overflow: hidden; }
+        .sidebar-card h3 { font-size: 1.1rem; margin-bottom: 15px; color: var(--primary-color); border-bottom: 2px solid var(--accent-color); padding-bottom: 6px; }
+        
+        .popular-post-item { display: flex; gap: 12px; align-items: center; margin-bottom: 15px; padding-bottom: 12px; border-bottom: 1px solid #f1f1f1; text-decoration: none; color: inherit; transition: transform 0.2s; }
+        .popular-post-item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+        .popular-post-item:hover { transform: translateX(3px); }
+        .popular-post-img { width: 70px; height: 70px; border-radius: 6px; object-fit: cover; flex-shrink: 0; }
+        .popular-post-title { font-size: 0.9rem; font-weight: 600; color: var(--text-color); line-height: 1.3; word-break: break-word; }
+        .popular-post-item:hover .popular-post-title { color: var(--accent-color); }
+        
+        .back-link { display: inline-block; margin-top: 25px; color: var(--primary-color); text-decoration: none; font-weight: 600; }
+        .back-link:hover { color: var(--accent-color); }
+        
+        footer { background-color: var(--primary-color); color: #fff; text-align: center; padding: 30px 15px; margin-top: 40px; font-size: 0.9rem; }
+        .footer-content { max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; align-items: center; width: 100%; box-sizing: border-box; }
+        .footer-links { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
+        .footer-links a { color: #aaa; text-decoration: none; font-size: 0.85rem; transition: color 0.3s; }
+        .footer-links a:hover { color: #fff; }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 992px) { 
+            .main-layout { grid-template-columns: 1fr; } 
+            .sidebar { position: static; } 
+        }
+        
+        @media (max-width: 768px) { 
+            body { font-size: 15px; padding: 0; }
+            header h1 { font-size: 1.6rem; letter-spacing: 1px; } 
+            .container { padding: 0 10px; margin: 15px auto; }
+            .story-content-card { padding: 15px; border-radius: 0; box-shadow: none; border-top: 1px solid #eee; border-bottom: 1px solid #eee; } 
+            .story-title { font-size: 1.35rem; } 
+            .story-img-wrapper, .story-img { max-height: 240px; border-radius: 4px; } 
+            .story-text p { font-size: 0.98rem; line-height: 1.6; margin-bottom: 14px; } 
+            .sidebar-card { border-radius: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Top Native Banner Ad -->
+    <div style="text-align: center; background: #fff; padding: 15px 10px; border-bottom: 1px solid #ddd; overflow: hidden; box-sizing: border-box;">
+        <script src="https://advancementpubertydied.com/5f/05/dc/5f05dc691b53d44cdfdb0691fb65c449.js"></script>
+
+
+<script async="async" data-cfasync="false" src="https://advancementpubertydied.com/4e44d301978b51b9730ae652f024201b/invoke.js"></script>
+<div id="container-4e44d301978b51b9730ae652f024201b"></div>
+    </div>
+
+    <header><h1>Confessions</h1></header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Secret Stories</a>
+        <a href="#">Trending</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="main-layout">
+            <div class="story-content-card">
+                <span class="story-category">Family Confessions</span>
+                <h1 class="story-title">I ate my Aunt' and Shower with</h1>
+                <div class="story-meta">Published by Anonymous | Family Confessions</div>
+                <div class="story-img-wrapper">
+                    <img src="https://i.pinimg.com/1200x/38/7d/52/387d524082c85c1547aa0a3c5c69adab.jpg" alt="I ate my Aunt' and Shower with" class="story-img">
+                </div>
+                <div class="story-text">
+                    <p>I ate my Aunt's pussy and fingered her in the shower</p>
+
+                    <p>This is the 2nd update about the experience I had with my Aunt. It's the direct follow-up to 'I accidentally came all over Aunt on my 18th Birthday'.</p>
+
+                    <p>For the uninitiated, you can read the previous 2 parts on my Profile.</p>
+
+                    <p>So, after Aunt Paige went to the bathroom, I was left sitting on the couch,</p>
+
+                    <p>absent mindedly trying to process what had just happened.</p>
+
+                    <p>As my mind instantly kept picturing my cum across my Aunt's body, I realised our relationship had changed forever. My hard-on was almost starting to settle when suddenly I heard the shower turn on and heard Aunt Paige calling out to me, "Come on Brian, what's taking you so long?"</p>
+
+                    <!-- Native Ad (After 6 Lines) -->
+                    <div class="ad-container">
+                        <script async="async" data-cfasync="false" src="https://advancementpubertydied.com/c6ba3117524ffd74db0d684cb37c432c/invoke.js"></script>
+<div id="container-c6ba3117524ffd74db0d684cb37c432c"></div>
+                    </div>
+
+                    <p>I removed my t-shirt and was now buck naked heading into the shower. The bathroom was fairly large with a sink and a toilet on one side, but a relatively smaller shower glass partition on the other. I couldn't completely see inside the shower as it was covered in steam when I entered, but I could still make out that Aunt Paige was rubbing some soap on her face. Seeing as her eyes were closed, I opened the shower door and announced, "I'm stepping in..." As soon as I went in, I realised that the partition was way too small for 2 people. Even standing as I did on the farthest end, we were extremely cramped.</p>
+
+                    <p>"Finally, you slowpoke... here, can you apply it on my back please?", Aunt Paige said reaching her hand out to give me the bar of soap she was holding. But not being able to see, she accidentally hit my boner instead, which caused me to groan aloud. "Oops, I'm so sorry sweety" and placing her palm on the tip of my dick she added, "Does it hurt?" "...tis but a flesh wound", I joked and took the soap from her hand. She giggled lightly and then turned around. I started applying the soap to her shoulders and as I slowly moved down to her waist, I realised she didn't have her panties on anymore. The thought of touching my Aunt's bare ass made my cock twitch with anticipation.</p>
+
+                    <p>After moving past her tiny waist, my hands automatically trailed the curves of her peach shaped butt. As I lathered her fluffy cheeks with soap, I could feel them wrapping around the sides of my fingers as I moved my palm across them. I must have spent a few minutes touching her ass as she turned her head and said, "Don't forget about the thighs too Brian".</p>
+
+                    <p>I obliged and lowered my hands. I had to move slightly forward so that my hands could reach her thighs and as I started foaming them, my dick which had been rock-hard the whole time, started grazing and poking against her butt. As my hands moved up and down her inner thighs, my fingers accidentally grazed against the lips of her pussy and she let out a whimper. "Hey... can you wash my front now sweety?" she said quietly. I thought I'd fucked by touching her pussy and stammered, "uh-yeah will do" I waited for her to turn around, but instead she just stood still with her back facing me. "You there, Brian?" she said as she moved backwards into me. As her back pressed up against my chest, my dick got smothered between her ass cheeks. "Yeah... sorry", I mustered, and reached my hands up to her breasts from behind.</p>
+
+                    <p>I applied the soap to her neck and breasts while trying to avoid touching the nipples as I didn't want to hurt her. This caused me to fumble with the soap a bit as it accidentally slipped between my fingers and dropped. "Shoot! I dropped the soap", I exclaimed. "Well, you're gonna have to pick it up then. I can't open my eyes". I looked over her and saw that the soap had dropped in front of her legs. I moved backwards, dislodging my cock from her ass cheeks and squatted down. When I reached my hand to grab the bar, I came face to face with her bare pussy and saw that it was dripping wet. Seeing her plump lips drenched in her juices, I just couldn't resist the urge, and almost subconsciously put my entire mouth on her pussy. She let out a sharp yelp and with a jerk her ass moved backwards and completely covered my face. As I started licking her clit, the taste of her smell and taste of her juices made me uncomfortably hard. As I pulled away to catch my breath, she placed her arm on the shower wall in front of her and with her head bent forward, softly whispered, "dont stop..."</p>
+
+                    <p>I ate her pussy with my face buried in her ass for a few minutes as my entire face got covered in her juices. The shower partition acted as an echo chamber and amplified her every breath and moan. "Come up sweety... kiss me" she said while panting. As her ass was bent towards me, my dick got stuck below her crotch as I rose up, and poked out in front of her thighs. We made out passionately for a minutes while the lips of her pussy, wrapped across my cock, grinded it from above.</p>
+
+                    <p>Turning on the shower head and washing the soap off of her face and body, she looked below to see my cock poking between her thighs. As she bent her face forwards, a line of spit left her mouth and fell onto my cock after which she started stroking it with her palm. I reached my hand from behind and started rubbing her clit while she continued to stroke my cock.</p>
+
+                    <p>I then put two of my fingers inside her and started thrusting them in and out of her; when she threw her head back into my chest with an expression of pleading eyes and half-parted lips and I instinctively grabbed her neck and started thrusting my fingers faster. Then all of a sudden her strokes started becoming slower and she suddenly grabbed hold of my shoulders in a tight grip. Her pussy started convulsing on my fingers inside and her petite body went limp against mine. I kissed her quivering lips as she became like putty in my arms. My cock, now covered in her warm cum, stay twitching beneath her pussy.</p>
+
+                    <p>Suddenly we heard the sound of crying from the living room. "Looks like Betty's awake...", she said. "Oh...", I replied, my mind not being able to focus. "Sorry sweetheart but I'll have to go check on her", she said wiggling out from above my cock and opened the shower door. Stepping out, she smiled and looked at me. "Hey! I'll make it up to you okay?", she said while glancing at my cock through the shower glass before leaving. I thought I'd hold her up to that promise and decided not to masturbate.</p>
+
+                    <p>After washing up, I headed to the living room and dressed myself up. In all this time, my boner had managed to calm down and I joined Aunt Paige in the kitchen where she was applying the icing on the cake. I put on some Clairo while I helped chop up the onions and garlic for the chicken curry masala which was to be the main course for the party.</p>
+
+                    <p>"It's getting late now, you should go get changed Brian", she said tucking her hair behind her ear while she decorated the frosting in swirly patterns on the cake. "Okay Aunt Paige, but remember, if I come back with a mask on my face, Dont... Open... The door!" I said teasing her. She looked up at me with an expression of fake anger on her face and said, "Not funny, Is this why you keep showing me those stupid horror flicks!" I laughed at this which made her break her expression. "Btw, I'm surprised you remember what was going on in the movie" she said quietly with a coy look on her face and I could feel a bulge growing in my pants. She walked up to me slowly and parted her lips, and as I bent down to kiss her, she suddenly moved away, leaving me standing there with my mouth hanging open. "This is what you get for your pranks mister", she said, teasing me with a sly smile. "Well... I deserved that I guess", I said after collecting myself. "Now go and come back fast, it's already 8 p.m and your parents will be here soon."</p>
+
+                    <p>I walked back to my house and quickly got changed into the only cool looking clothes I had: a black leather jacket; over a black t-shirt; with black jeans. I wanted to look good for Aunt Paige, only I was too out of touch to realise that leather jackets hadn't been in fashion since the 90s. But even though I might have looked like a scuffed Adam Lambert, I had confidence of John Mayer in me as I walked out of the house.</p>
+
+                    <p>It was around 9 p.m when I got back to Aunt Paige's. Mom and Dad were already there and wished me happy birthday when I came in. Aunt Paige came out of the kitchen now dressed in a red tank top over denims, her nipples poking through the top. "Looking sharp", she said smiling with her head tilted to the side. Looking back, that might've been sarcastic, but it had made me brim with joy anyway. I cut the cake and we sat down for dinner.</p>
+
+                    <p>"It's a shame Jason couldn't make it", my dad said. "Yeah, he said there's been some kind of routing issue at the airport", said Aunt Paige "of all the days...", my mom trailed off shaking her head. "So, when's his next flight?", asked Dad. "Around midnight I believe", I replied. "Yeah, I'll have to pick him up at the airport at around 2 a.m.", Aunt Paige added. "Hmm", my dad grumbled. "Hey Brian, why don't you tag along with your Aunt. It'll be good to have someone with her at that time of the night", my mom suggested. "Yeah... sure mom", I replied. "Thanks, Brian! You're the best", Aunt Paige chimed in grinning at me.</p>
+
+                    <p>Needless to say things got a lot more hot and heavy later in the night. I know I said I'd wrap everything in this update but there were just way too many details to cover and I didn't want to gloss over anything. So I guess you guys can expect one final update soon to hear the end of this. Stick around!</p>
+
+                    <p>Also I won't be giving out any photos, locations or real names so please stop asking in the comments and chats. Thanks.</p>
+
+                    <!-- Story End Native Ad -->
+                    <div class="ad-container">
+                        <script>
+  atOptions = {
+    'key' : '6952388a1eb0b98abb81566055d95b51',
+    'format' : 'iframe',
+    'height' : 90,
+    'width' : 728,
+    'params' : {}
+  };
+</script>
+<script src="https://advancementpubertydied.com/6952388a1eb0b98abb81566055d95b51/invoke.js"></script>
+                    </div>
+
+                </div>
+                <a href="index.html" class="back-link">&larr; Back to Home</a>
+            </div>
+
+            <aside class="sidebar">
+                <div class="sidebar-card">
+                    <h3>Popular Stories</h3>
+                    <a href="massage-session-confession-with-mom.html" class="popular-post-item">
+                        <img src="https://i.pinimg.com/1200x/d5/42/3b/d5423b51e39f86fd51fd768bf2361664.jpg" alt="Story 1" class="popular-post-img">
+                        <span class="popular-post-title">Massage session confession with mom</span>
+                    </a>
+                    <a href="mil-wanted-to-see-my-vagina.html" class="popular-post-item">
+                        <img src="https://i.pinimg.com/1200x/d4/90/e2/d490e2cf7d446ef2830f1a45c77205bb.jpg" alt="Story 2" class="popular-post-img">
+                        <span class="popular-post-title">My MIL wanted to see my vagina, I can't believe it</span>
+                    </a>
+                    <a href="accidental-night-confession-with-mom.html" class="popular-post-item">
+                        <img src="https://i.pinimg.com/1200x/4b/be/a2/4bbea24c2135760d003f5fa9888fec75.jpg" alt="Story 3" class="popular-post-img">
+                        <span class="popular-post-title">Last night, I fingered my mom</span>
+                    </a>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div style="background: #222; padding: 12px; border-radius: 6px; width: 100%; max-width: 728px; text-align: center; overflow: hidden; box-sizing: border-box;">
+                <script async="async" data-cfasync="false" src="https://advancementpubertydied.com/c6ba3117524ffd74db0d684cb37c432c/invoke.js"></script>
+                <div id="container-c6ba3117524ffd74db0d684cb37c432c"></div>
+            </div>
+            <p>&copy; 2026 Confession Hub. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
