@@ -9,7 +9,7 @@
     <script src="https://advancementpubertydied.com/5f/05/dc/5f05dc691b53d44cdfdb0691fb65c449.js"></script>
 
     <!-- Header Native Banner Ad -->
-    <div style="text-align: center; background: #fff; padding: 15px 0; border-bottom: 1px solid #ddd;">
+    <div style="text-align: center; background: #fff; padding: 15px 0; border-bottom: 1px solid #ddd; overflow: hidden;">
         <script async="async" data-cfasync="false" src="https://pl31570133.profitableratecpmnetwork.com/4e44d301978b51b9730ae652f024201b/invoke.js"></script>
         <div id="container-4e44d301978b51b9730ae652f024201b"></div>
     </div>
@@ -36,6 +36,7 @@
             color: var(--text-color); 
             line-height: 1.8; 
             font-size: 16px;
+            overflow-x: hidden;
         }
         
         header { 
@@ -58,6 +59,11 @@
             text-align: center; 
             overflow-x: auto;
             white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        nav::-webkit-scrollbar {
+            display: none;
         }
         
         nav a { 
@@ -83,7 +89,7 @@
         
         .main-layout { 
             display: grid; 
-            grid-template-columns: 2fr 1fr; 
+            grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); 
             gap: 25px; 
             align-items: start; 
         }
@@ -93,6 +99,8 @@
             padding: 30px; 
             border-radius: 8px; 
             box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+            width: 100%;
+            overflow: hidden;
         }
         
         .story-category { 
@@ -109,6 +117,7 @@
             color: var(--primary-color); 
             margin-bottom: 12px; 
             line-height: 1.3; 
+            word-wrap: break-word;
         }
         
         .story-meta { 
@@ -121,18 +130,20 @@
         
         .story-img { 
             width: 100%; 
+            height: auto;
             max-height: 400px; 
             object-fit: cover; 
             border-radius: 6px; 
             margin-bottom: 20px; 
-            display: block;
+            display: block; 
         }
         
         .story-text p { 
             margin-bottom: 18px; 
             font-size: 1.05rem; 
             color: #333; 
-            word-wrap: break-word;
+            word-break: break-word;
+            overflow-wrap: break-word;
         }
 
         .ad-container {
@@ -141,8 +152,9 @@
             background: #fff; 
             padding: 10px; 
             border-radius: 6px; 
-            border: 1px solid #eee;
+            border: 1px solid #eee; 
             overflow: hidden;
+            max-width: 100%;
         }
 
         /* Sidebar Styling */
@@ -260,7 +272,7 @@
         }
 
         /* Mobile & Tablet Optimization */
-        @media (max-width: 850px) {
+        @media (max-width: 900px) {
             .main-layout { 
                 grid-template-columns: 1fr; 
             }
@@ -270,12 +282,13 @@
         }
 
         @media (max-width: 600px) {
-            header h1 { font-size: 1.75rem; }
-            .story-content-card { padding: 18px; }
-            .story-title { font-size: 1.4rem; }
-            .story-img { max-height: 230px; }
-            .story-text p { font-size: 1rem; line-height: 1.6; }
-            .container { padding: 0 10px; margin: 15px auto; }
+            header h1 { font-size: 1.5rem; }
+            .story-content-card { padding: 15px; }
+            .story-title { font-size: 1.3rem; }
+            .story-img { max-height: 220px; }
+            .story-text p { font-size: 0.98rem; line-height: 1.6; }
+            .container { padding: 0 8px; margin: 15px auto; }
+            nav a { margin: 0 8px; font-size: 0.85rem; }
         }
     </style>
 </head>
@@ -312,16 +325,16 @@
                     <p>My grandfather and I had been planning this weekend for a few months. This was a milestone birthday for my grandmother, and she’s the matriarch of our family. We’re a small, not super close family, but he wanted to make it really special for my grandmother. So, he invited all three adult children (my mom and my two uncles) with their families to surprise her. When we were discussing the guest list, I asked about my youngest uncle and his family if they would be attending. He got very serious and said that my aunt refused to be around my mother, and that she would not be attending. I was obviously confused, and he asked if I knew what happened. I didn’t, but thought I could reasonably assume there had been some rift between them - genuinely thought that, as sad as it sounds, she had said something racist / out of pocket / overly mean, as she is wont to do. My aunt has always been a bit sensitive and a black sheep in the family from being the second wife, so I figured my mom had just done something fucked up in a state of alcohol fueled bullshittery. Sad, but nothing I wouldn’t put past her.</p>
 
                     <!-- Middle Article Native Ad -->
-                   <script>
-  atOptions = {
-    'key' : '6952388a1eb0b98abb81566055d95b51',
-    'format' : 'iframe',
-    'height' : 90,
-    'width' : 728,
-    'params' : {}
-  };
-</script>
-<script src="https://advancementpubertydied.com/6952388a1eb0b98abb81566055d95b51/invoke.js"></script>
+                    <script>
+                        atOptions = {
+                            'key' : '6952388a1eb0b98abb81566055d95b51',
+                            'format' : 'iframe',
+                            'height' : 90,
+                            'width' : 728,
+                            'params' : {}
+                        };
+                    </script>
+                    <script src="https://advancementpubertydied.com/6952388a1eb0b98abb81566055d95b51/invoke.js"></script>
 
                     <p>Cut to Saturday night. We had some drinks, we come home, my partner and her husband both toddle off to their respective beds and leave us to bond. After a couple of hours of talking through some other stuff, I casually asked what the issue was between her and Katherine (fake name, my aunt) - just looking for clarification / confirmation of my assumptions. She immediately shut down and looked really ashamed, and said she didn’t want to tell me because I would judge her. I told her she didn’t have to tell me, but I assumed it was as I initially thought. I did not press her again. About five minutes after my question, she comes out with that she slept with William (fake name, my uncle) after he and Katherine had gotten married. This would be anywhere from 12-15 years ago.</p>
 
@@ -372,7 +385,7 @@
     <footer>
         <div class="footer-content">
             <!-- Footer Native Ad -->
-            <div style="background: #222; padding: 12px; border-radius: 6px; width: 100%; max-width: 728px; text-align: center;">
+            <div style="background: #222; padding: 12px; border-radius: 6px; width: 100%; max-width: 728px; text-align: center; overflow: hidden;">
                 <script async="async" data-cfasync="false" src="https://advancementpubertydied.com/c6ba3117524ffd74db0d684cb37c432c/invoke.js"></script>
                 <div id="container-c6ba3117524ffd74db0d684cb37c432c"></div>
             </div>
