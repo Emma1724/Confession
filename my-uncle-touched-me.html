@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My uncle touched me - Confessions</title>
     
-  <!-- Popunder Ad Script -->
+    <!-- Popunder Ad Script -->
     <script src="https://advancementpubertydied.com/5f/05/dc/5f05dc691b53d44cdfdb0691fb65c449.js"></script>
 
     <!-- Header Native Banner Ad -->
-    <div style="text-align: center; background: #fff; padding: 15px 0; border-bottom: 1px solid #ddd;">
+    <div style="text-align: center; background: #fff; padding: 15px 0; border-bottom: 1px solid #ddd; overflow: hidden;">
         <script async="async" data-cfasync="false" src="https://pl31570133.profitableratecpmnetwork.com/4e44d301978b51b9730ae652f024201b/invoke.js"></script>
         <div id="container-4e44d301978b51b9730ae652f024201b"></div>
     </div>
@@ -36,12 +36,13 @@
             color: var(--text-color); 
             line-height: 1.8; 
             font-size: 16px;
+            overflow-x: hidden;
         }
         
         header { 
             background-color: var(--primary-color); 
             color: #fff; 
-            padding: 20px 0; 
+            padding: 20px 15px; 
             text-align: center; 
             border-bottom: 4px solid var(--accent-color); 
         }
@@ -58,6 +59,7 @@
             text-align: center; 
             overflow-x: auto;
             white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
         }
         
         nav a { 
@@ -105,7 +107,7 @@
         }
         
         .story-title { 
-            font-size: 1.8rem; 
+            font-size: 2rem; 
             color: var(--primary-color); 
             margin-bottom: 12px; 
             line-height: 1.3; 
@@ -119,9 +121,11 @@
             padding-bottom: 12px; 
         }
         
+        /* Fully Responsive Main Story Image */
         .story-img { 
             width: 100%; 
-            max-height: 400px; 
+            height: auto; 
+            max-height: 450px; 
             object-fit: cover; 
             border-radius: 6px; 
             margin-bottom: 20px; 
@@ -130,11 +134,13 @@
         
         .story-text p { 
             margin-bottom: 18px; 
-            font-size: 1.05rem; 
+            font-size: 1.08rem; 
             color: #333; 
             word-wrap: break-word;
+            line-height: 1.8;
         }
 
+        /* Generic Ad Containers & Responsive Scale Fix */
         .ad-container {
             text-align: center; 
             margin: 25px 0; 
@@ -143,6 +149,17 @@
             border-radius: 6px; 
             border: 1px solid #eee;
             overflow: hidden;
+            max-width: 100%;
+        }
+
+        /* Responsive Wrapper for Fixed-Width Ads (e.g., 728x90) */
+        .ad-responsive-wrapper {
+            width: 100%;
+            overflow-x: auto;
+            text-align: center;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
         }
 
         /* Sidebar Styling */
@@ -239,7 +256,7 @@
             flex-direction: column; 
             gap: 20px; 
             align-items: center; 
-        }
+        } 
         
         .footer-links { 
             display: flex; 
@@ -259,8 +276,8 @@
             color: #fff; 
         }
 
-        /* Mobile & Tablet Optimization */
-        @media (max-width: 850px) {
+        /* Responsive Breakpoints (Tablet & Mobile Optimizations) */
+        @media (max-width: 900px) {
             .main-layout { 
                 grid-template-columns: 1fr; 
             }
@@ -270,12 +287,13 @@
         }
 
         @media (max-width: 600px) {
-            header h1 { font-size: 1.75rem; }
-            .story-content-card { padding: 18px; }
+            header h1 { font-size: 1.6rem; }
+            .story-content-card { padding: 18px 15px; }
             .story-title { font-size: 1.4rem; }
-            .story-img { max-height: 230px; }
-            .story-text p { font-size: 1rem; line-height: 1.6; }
+            .story-img { max-height: 250px; }
+            .story-text p { font-size: 1rem; line-height: 1.65; }
             .container { padding: 0 10px; margin: 15px auto; }
+            nav a { margin: 0 8px; font-size: 0.85rem; }
         }
     </style>
 </head>
@@ -309,17 +327,19 @@
 
                     <p>I went outside to ask my younger sister for help in the game and my uncle instead came inside to help me, it wasn’t a problem up until the point he started getting extremely close to me to the point I started moving away but a few seconds later we would be in the same exact position as we were.</p>
 
-                    <!-- Middle Article Native Ad -->
-                   <script>
-  atOptions = {
-    'key' : '6952388a1eb0b98abb81566055d95b51',
-    'format' : 'iframe',
-    'height' : 90,
-    'width' : 728,
-    'params' : {}
-  };
-</script>
-<script src="https://advancementpubertydied.com/6952388a1eb0b98abb81566055d95b51/invoke.js"></script>
+                    <!-- Middle Article Native Ad (Wrapped for Responsiveness) -->
+                    <div class="ad-responsive-wrapper">
+                        <script>
+                          atOptions = {
+                            'key' : '6952388a1eb0b98abb81566055d95b51',
+                            'format' : 'iframe',
+                            'height' : 90,
+                            'width' : 728,
+                            'params' : {}
+                          };
+                        </script>
+                        <script src="https://advancementpubertydied.com/6952388a1eb0b98abb81566055d95b51/invoke.js"></script>
+                    </div>
 
                     <p>I started obviously getting uncomfortable and asked my grandma and my sister to come in and play with us on the game while my mom went into her bedroom to go to sleep, they came in and we played a few rounds and it was for the most part fun other than the fact I was at that point terrified of my uncle.</p>
 
@@ -368,7 +388,7 @@
     <footer>
         <div class="footer-content">
             <!-- Footer Native Ad -->
-            <div style="background: #222; padding: 12px; border-radius: 6px; width: 100%; max-width: 728px; text-align: center;">
+            <div style="background: #222; padding: 12px; border-radius: 6px; width: 100%; max-width: 728px; text-align: center; margin: 0 auto; overflow: hidden;">
                 <script async="async" data-cfasync="false" src="https://advancementpubertydied.com/c6ba3117524ffd74db0d684cb37c432c/invoke.js"></script>
                 <div id="container-c6ba3117524ffd74db0d684cb37c432c"></div>
             </div>
